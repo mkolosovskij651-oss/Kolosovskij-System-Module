@@ -1,0 +1,17 @@
+{
+  "module": "Kolosovskij-System-Module",
+  "description": "Описание модуля",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/data",
+      "request": {
+        "params": [ "id" ]
+      },
+      "response": {
+        "type": "json",
+        "fields": [ "id", "name", "value" ]
+      }
+    }
+  ]
+}
